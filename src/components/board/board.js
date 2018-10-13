@@ -17,76 +17,7 @@ const initialChars = [
         img: 'img/250x180/iverson.png',
         clicked: false
     },
-    {
-        name: 'Charles Barkley',
-        img: 'img/250x180/barkley.png',
-        clicked: false
-    },
-    {
-        name: 'Steve Carlton',
-        img: 'img/250x180/carlton.PNG',
-        clicked: false
-    },
-    {
-        name: 'Wilt Chamberlin',
-        img: 'img/250x180/chamberlin.PNG',
-        clicked: false
-    },
-    {
-        name: 'Brian Dawkins',
-        img: 'img/250x180/dawkins.PNG',
-        clicked: false
-    },
-    {
-        name: 'Joel Embiid',
-        img: 'img/250x180/embiid.png',
-        clicked: false
-    },
-    {
-        name: 'Julius Erving',
-        img: 'img/250x180/erving.PNG',
-        clicked: false
-    },
-    {
-        name: 'Claude Giroux',
-        img: 'img/250x180/giroux.PNG',
-        clicked: false
-    },
-    {
-        name: 'Roy Halladay',
-        img: 'img/250x180/halladay.PNG',
-        clicked: false
-    },
-    {
-        name: 'Terrell Owens',
-        img: 'img/250x180/owens.PNG',
-        clicked: false
-    },
-    {
-        name: 'Mike Schmidt',
-        img: 'img/250x180/schmidt.PNG',
-        clicked: false
-    },
-    {
-        name: 'Wayne Simmonds',
-        img: 'img/250x180/simmonds.PNG',
-        clicked: false
-    },
-    {
-        name: 'Ben Simmons',
-        img: 'img/250x180/simmons.PNG',
-        clicked: false
-    },
-    {
-        name: 'Chase Utley',
-        img: 'img/250x180/utley.PNG',
-        clicked: false
-    },
-    {
-        name: 'Carson Wentz',
-        img: 'img/250x180/wentz.PNG',
-        clicked: false
-    }
+   
 ]
 
 export default class Board extends Component {
