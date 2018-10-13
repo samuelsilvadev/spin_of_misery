@@ -136,7 +136,7 @@ export default class Board extends Component {
                     length={'30px'}
                     direction={'bottom'}
                     delay={'1s'}>
-                    <h4>Click on every Philadelphia player one time. After every click, the board will shuffle!<br/>Be careful, because if you click the same player twice the game will restart!Good luck!!</h4>
+                    <h4>Spin the Wheel of Misery and face the consequences at your own risk.</h4>
                 </FadeIn>
                 <FadeIn 
                     in={true}
