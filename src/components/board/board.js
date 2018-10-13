@@ -22,41 +22,8 @@ const initialChars = [
 
 export default class Board extends Component {
 
-    constructor(props){
-        super(props);
+  
 
-        this.state = {
-            user: {
-                score: 0 
-            },
-            characters: shuffleArray( initialChars )
-        };
-    }
-
-    onCharacterClick = ( index ) =>{
-        if( !this.state.characters[index].clicked ){
-            this.setState({
-                characters: shuffleArray( this.state.characters.map( (character, current) =>  {
-                    return ( current === index ) ? { ...character, clicked:true } : character
-                })),
-                user: {
-                    ...this.state.user,
-                    score: this.state.user.score + 1
-                }
-            });
-            //and shuffle
-        } else {
-            this.setState({
-                characters: shuffleArray(this.state.characters.map( character => { return { ...character, clicked : false } })),
-                user: {
-                    ...this.state.user,
-                    score: 0
-                }
-            });
-            //and shuffle
-        }
-        
-    }
 
     render(){
         return (
