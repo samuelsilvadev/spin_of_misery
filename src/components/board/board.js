@@ -22,7 +22,17 @@ const initialChars = [
 
 export default class Board extends Component {
 
-  
+    constructor(props){
+        super(props);
+
+        this.state = {
+            user: {
+                score: 0 
+            },
+            characters: shuffleArray( initialChars )
+        };
+    }
+
     onCharacterClick = ( index ) =>{
         if( !this.state.characters[index].clicked ){
             this.setState({
