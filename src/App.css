@@ -42,6 +42,7 @@ body {
 }
 
 .character:hover {
+  cursor: pointer;
   transition: transform .2s ease-in-out;
   transform: scale(1.03,1.03);
 }
