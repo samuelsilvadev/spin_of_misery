@@ -1,6 +1,6 @@
 # Spin of Misery
 
-React Game Application where groups spin the wheel and face consequences at their own risk.
+React Game Application where groups spin the wheel of misery and face consequences at their own risk.
 
 ## Getting Started
 
