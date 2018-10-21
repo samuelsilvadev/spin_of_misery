@@ -31,7 +31,7 @@ npm start (inside the cloned folder too)
 
 
 ## Contributing
-[Kyle Carney](https://github.com/kylecarney)
+[Kyle Carney](https://github.com/kylecarney) <br>
 [Samuel Silva](https://github.com/samuelsilvadev)
 ...
 
