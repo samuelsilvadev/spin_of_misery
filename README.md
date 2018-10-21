@@ -31,7 +31,8 @@ npm start (inside the cloned folder too)
 
 
 ## Contributing
-
+@kylecarney
+@samuelsilvadev
 ...
 
 ## Versioning
